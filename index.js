@@ -5,7 +5,12 @@ module.exports = function(source) {
   if (this.resourceQuery) {
     const queryObj = qs.parse(this.resourceQuery.slice(1))
     if (queryObj.inline) {
-      return require('url-loader').call(this, source)
+      const urlLoaderCtx = Object.assign({
+        // default settings for inlining images
+        emitFile: false,
+        limit: Infinity,
+      }, this)
+      return require('url-loader').call(urlLoaderCtx, source)
     }
   }
   var parsedPath = path.parse(this.resourcePath)
