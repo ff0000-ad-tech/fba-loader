@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 7
+  - 6
+  - 4
+script: npm test
+branches:
+  only:
+    - master
+    - /^v[0-9]/
