@@ -11,15 +11,19 @@ function compile(entry, options) {
 			filename: entry
 		},
 		module: {
-			rules: [{
-				test: /.jpg$/,
-				use: [{
-					loader: path.join(__dirname, '../index.js'),
-					options,
-				}]
-			}],
-		},
-	});
+			rules: [
+				{
+					test: /.jpg$/,
+					use: [
+						{
+							loader: path.join(__dirname, '../index.js'),
+							options
+						}
+					]
+				}
+			]
+		}
+	})
 	compiler.run((err, stats) => {
 		if (err) throw err
 	})
