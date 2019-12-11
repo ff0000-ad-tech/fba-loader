@@ -25,6 +25,7 @@ module.exports = function(source) {
 			assetType = 'font'
 		}
 		var subtype = assetMatch[1]
+		if (subtype === 'svg') subtype += '+xml'
 		var dataUrl = 'data:' + assetType + '/' + subtype + ';base64,' + source.toString('base64')
 		// update loader result
 		result += 'if (window.InlineSrc) {\n'
