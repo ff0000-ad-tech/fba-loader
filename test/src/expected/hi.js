@@ -78,7 +78,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = 'hi'
+throw new Error("Module build failed: TypeError: Cannot read property 'base64Inline' of null\n    at Object.module.exports (/Users/derek.miranda/Internal/fba-loader/index.js:15:11)");
 
 /***/ })
 /******/ ]);
