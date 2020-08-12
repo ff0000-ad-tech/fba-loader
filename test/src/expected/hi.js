@@ -67,18 +67,18 @@
 /* 0 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-    "use strict";
-    Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-    /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hi_jpg__ = __webpack_require__(1);
-    /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hi_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__hi_jpg__);
-    
-    
-    
-    /***/ }),
-    /* 1 */
-    /***/ (function(module, exports) {
-    
-    throw new Error("Module build failed: TypeError: Cannot read property 'base64Inline' of null\n    at Object.module.exports (/Users/jacquesaltounian/Projects/ff0000-ad-tech/fba-loader/index.js:15:11)");
-    
-    /***/ })
-    /******/ ]);
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hi_jpg__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hi_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__hi_jpg__);
+
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: TypeError: Cannot read property 'base64Inline' of null\n    at Object.module.exports (/Users/jacquesaltounian/Projects/ff0000-ad-tech/fba-loader/index.js:15:11)");
+
+/***/ })
+/******/ ]);
