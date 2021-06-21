@@ -28,12 +28,12 @@
   },
   "homepage": "https://github.com/ff0000-ad-tech/fba-loader#readme",
   "devDependencies": {
-		"babel-eslint": "^8.2.2",
-		"eslint": "^4.16.0",
-		"eslint-config-prettier": "^2.9.0",
-		"eslint-plugin-prettier": "^2.5.0",
-		"np": "^2.19.0",
-		"prettier": "^1.10.2"
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "np": "^2.19.0",
+    "prettier": "^1.10.2"
   },
   "dependencies": {
     "loader-utils": "^1.2.3",
