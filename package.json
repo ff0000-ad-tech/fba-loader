@@ -7,7 +7,6 @@
   "description": "Loader used for binary asset imports pulled from FBA payloads created by FF0000 fba-compiler",
   "main": "index.js",
   "scripts": {
-    "test": "ava test/test.js",
     "pub": "np"
   },
   "engines": {
